@@ -1,0 +1,12 @@
+# Rust build artifacts
+target/
+**/target/
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Remove Cargo.lock from gitignore if creating a library, leave it for applications
+# Cargo.lock
